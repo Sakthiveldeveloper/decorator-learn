@@ -1,0 +1,15 @@
+New folder  -> creatwing a new project folder
+npm init -y  -> package.json file initialization
+npm i typescript -> typescript installation
+tsc --init  --> tsconfig.json  initialization
+experimentalDecorators": true,  ->allow decoratrs becaus thats was exprimental only
+"start": "ts-node ./src/app.ts" -> write  running script in the package.json file
+npm i -D ts-node -> install ts-node this help to run ts file in terminal
+
+ts-node help to run a ts file
+npm start -> terminal help file running
+write code
+"compile": "tsc" ->  write  compiling script in the package.json file
+"rootDir": "./src",                                  /* Specify the root folder within your source files. */
+"outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+
