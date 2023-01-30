@@ -1,0 +1,27 @@
+inJS
+    The definition of mixins can be stated as mixins is a class that contains methods.
+that can be used by other classes without inheriting from that class
+----------------------------------------------------------------
+inTS
+
+Mixins are a faux-multiple inheritance pattern for classes in JavaScript which TypeScript has support for. 
+The pattern allows you to create a class which is a merge of many classes. To get started, we need a type 
+which we'll use to extend other classes from reusable components is to build them by combining simpler partial classes
+
+Mixins are special classes that contain a combination of methods that can be used by other classes. Mixins promote code reusability and help you avoid limitations associated with multiple inheritance
+----------------------------------------------------------------
+JS and TS only support single inhertance so can't
+
+Mixins
+    In javascript, we can only inherit from a single object. there can be only one [Prototype] for an object. 
+and a class may Extend only one other class.
+     a mixin is a class containing methods that can be used by other classes without a need to inherit from it.
+    Js not support multiple -  inhertance by default  but some time we need mix of multiple objects used by other class with out inheritance from that class
+method mixins provide certain behavior which is not used alone but can be used to add these behaviors to other classes.
+
+
+--------------
+TS documentation
+    popular way of building up classes from reusable components is to build them by combining simpler partial classes.
+    TypeScript’s best mixin support is done via the class expression pattern
+    
